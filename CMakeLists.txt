@@ -128,6 +128,7 @@ install(EXPORT jetson-utilsConfig DESTINATION share/jetson-utils/cmake)
 # build python bindings + samples
 add_subdirectory(python)
 add_subdirectory(video/video-viewer)
+add_subdirectory(video/streamer)
 
 #add_subdirectory(camera/camera-viewer)
 #add_subdirectory(display/gl-display-test)
